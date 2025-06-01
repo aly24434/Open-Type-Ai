@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/editorFragment">
+
+    <fragment
+        android:id="@+id/editorFragment"
+        android:name="com.example.opentypeai.EditorFragment"
+        android:label="@string/editor"
+        tools:layout="@layout/fragment_editor" />
+
+    <fragment
+        android:id="@+id/fontInspectorFragment"
+        android:name="com.example.opentypeai.FontInspectorFragment"
+        android:label="@string/font_inspector"
+        tools:layout="@layout/fragment_font_inspector" />
+
+    <fragment
+        android:id="@+id/fontRecognitionFragment"
+        android:name="com.example.opentypeai.FontRecognitionFragment"
+        android:label="@string/font_recognition"
+        tools:layout="@layout/fragment_font_recognition" />
+
+    <fragment
+        android:id="@+id/fontLibraryFragment"
+        android:name="com.example.opentypeai.FontLibraryFragment"
+        android:label="@string/font_library"
+        tools:layout="@layout/fragment_font_library" />
+
+    <fragment
+        android:id="@+id/savedDesignsFragment"
+        android:name="com.example.opentypeai.SavedDesignsFragment"
+        android:label="@string/saved_designs"
+        tools:layout="@layout/fragment_saved_designs" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.opentypeai.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

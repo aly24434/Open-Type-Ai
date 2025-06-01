@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">OpenType AI</string>
+
+    <!-- أسماء القوائم -->
+    <string name="editor">المحرر</string>
+    <string name="font_inspector">مفتش الخطوط</string>
+    <string name="font_recognition">التعرف على الخط</string>
+    <string name="font_library">مكتبة الخطوط</string>
+    <string name="saved_designs">تصاميمي</string>
+    <string name="settings">الإعدادات</string>
+
+    <!-- رسائل -->
+    <string name="font_loaded">تم تحميل الخط</string>
+    <string name="font_load_error">خطأ في تحميل الخط</string>
+    <string name="select_font">اختيار خط</string>
+    <string name="select_image">اختيار صورة</string>
+    <string name="save_design">حفظ التصميم</string>
+</resources>

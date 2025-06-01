@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/editorFragment"
+        android:title="@string/editor"
+        android:icon="@drawable/ic_editor"/>
+    <item
+        android:id="@+id/fontInspectorFragment"
+        android:title="@string/font_inspector"
+        android:icon="@drawable/ic_inspector"/>
+    <item
+        android:id="@+id/fontRecognitionFragment"
+        android:title="@string/font_recognition"
+        android:icon="@drawable/ic_ai"/>
+    <item
+        android:id="@+id/fontLibraryFragment"
+        android:title="@string/font_library"
+        android:icon="@drawable/ic_library"/>
+    <item
+        android:id="@+id/savedDesignsFragment"
+        android:title="@string/saved_designs"
+        android:icon="@drawable/ic_save"/>
+    <item
+        android:id="@+id/settingsFragment"
+        android:title="@string/settings"
+        android:icon="@drawable/ic_settings"/>
+</menu>

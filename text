@@ -1,0 +1,28 @@
+opentype_ai_project/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/example/opentypeai/
+│   │   │   │   ├── MainActivity.kt
+│   │   │   │   ├── FontInspectorFragment.kt
+│   │   │   │   ├── FeatureAdapter.kt
+│   │   │   │   ├── FontInfo.kt
+│   │   │   │   └── FeatureInfo.kt
+│   │   │   ├── res/
+│   │   │   │   ├── layout/
+│   │   │   │   │   ├── activity_main.xml
+│   │   │   │   │   ├── fragment_editor.xml
+│   │   │   │   │   ├── fragment_font_inspector.xml
+│   │   │   │   │   └── item_feature.xml
+│   │   │   │   ├── menu/
+│   │   │   │   │   └── nav_menu.xml
+│   │   │   │   ├── navigation/
+│   │   │   │   │   └── nav_graph.xml
+│   │   │   │   ├── values/
+│   │   │   │   │   ├── colors.xml
+│   │   │   │   │   └── strings.xml
+│   │   │   │   └── drawable/
+│   │   │   │       ├── ic_menu.xml
+│   │   │   │       ├── ic_save.xml
+│   │   │   │       ├── ic_inspector.xml
+│   │   │   │       └── ic_ai.xml
